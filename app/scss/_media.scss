@@ -1,0 +1,319 @@
+@media only screen and (max-width: 1140px) {
+  .motivation {
+    overflow: hidden;
+    &__block {
+      flex-direction: column;
+      flex-wrap: wrap;
+
+      &__items {
+        width: 100%;
+      }
+    }
+    &__image {
+      width: 500px;
+      height: 340px;
+      position: relative;
+      transform: translateX(-25%) rotate(-90deg);
+      left: 50%;
+      top: -55px;
+    }
+  }
+
+  .slider {
+    width: 800px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .popup {
+    max-width: 700px;
+  }
+
+  .wrapper {
+    &--punish {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .punish {
+    padding: 60px 0;
+    &__info {
+      width: 100%;
+    }
+    &__title {
+      width: 70%;
+    }
+    &__phones {
+      width: 100%;
+      margin-top: 20px;
+      flex-wrap: nowrap;
+      position: relative;
+      left: 50%;
+      transform: translateX(-37%);
+    }
+    &__desc {
+      margin: 0 0 40px;
+    }
+  }
+
+  .phone {
+    width: 30%;
+    position: initial;
+  }
+
+  .download {
+    &__image {
+      display: none;
+    }
+    &__info {
+      width: 100%;
+      padding-left: 0;
+    }
+  }
+
+  .footer {
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .header {
+    background: url("../img/header_bg-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__info {
+      width: 100%;
+    }
+    &__desc {
+      display: none;
+    }
+    &__image {
+      display: flex;
+      justify-content: center;
+      width: 75%;
+      margin: 0 auto;
+    }
+  }
+  .btn {
+    top: 84%;
+    width: 100%;
+  }
+
+  .about {
+    margin-top: 0;
+    padding: 60px 0;
+  }
+
+  .benefits {
+    background: url("../img/benefits_bg-mobile.png"), $white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+
+    &__block {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    &__item {
+      padding-top: 60px;
+    }
+  }
+
+  .motivation {
+    padding: 60px 0;
+    &__desc {
+      display: none;
+    }
+    &__item {
+      width: 100%;
+    }
+
+    &__image {
+      width: 400px;
+    }
+  }
+  .wrapper {
+    flex-direction: column;
+    &--header {
+      margin-top: 40px;
+    }
+    &--punish {
+      flex-direction: column-reverse;
+    }
+  }
+  .review {
+    padding: 60px 0;
+  }
+  .slider {
+    width: 680px;
+  }
+
+  .exception {
+    padding: 60px 0 0;
+    &__image {
+      margin-top: 0;
+      width: 100%;
+      justify-content: center;
+    }
+  }
+
+  .download {
+    padding: 60px 0;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .popup {
+    width: 540px;
+
+    &__title {
+      font-size: 1.5em;
+    }
+
+    &__timer {
+      font-size: 2.25em;
+    }
+
+    &__data {
+      p {
+        font-size: 0.33em;
+      }
+    }
+
+    &__button {
+      margin-top: 20px;
+      width: 100%;
+      position: relative;
+    }
+
+    .congratulation {
+      &__title {
+        width: 100%;
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  .slider {
+    width: 540px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .header {
+    &__title {
+      font-size: 2em;
+      max-width: 330px;
+    }
+  }
+
+  .popup {
+    width: 335px;
+    padding: 70px 20px;
+  }
+
+  .benefits {
+    &__block {
+      grid-template-columns: 1fr;
+    }
+    &__item {
+      padding: 60px 0 0;
+    }
+  }
+
+  .motivation {
+    &__image {
+      left: 25%;
+      width: 326px;
+    }
+  }
+
+  .punish {
+    &__phones {
+      transform: translateX(-20%);
+    }
+  }
+
+  .phone {
+    width: 50%;
+  }
+
+  .review {
+    background-size: cover;
+    &__title {
+      span {
+        display: inline;
+      }
+    }
+  }
+
+  .slider {
+    &__title {
+      line-height: 8px;
+    }
+  }
+
+  .slider {
+    width: 335px;
+  }
+
+  .exception {
+    background: url("../img/exception_bg-mobile.png"), $white;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .download {
+    &__text {
+      font-size: 1.75em;
+    }
+    &__buttons {
+      flex-direction: column;
+      margin-top: 0;
+    }
+    &__button {
+      margin: 10px 0;
+    }
+  }
+
+  .footer {
+    &__contacts {
+      flex-direction: column;
+      align-items: start;
+    }
+    &__socials {
+      p {
+        display: none;
+      }
+    }
+
+    &__icons {
+      img {
+        margin-right: 15px;
+      }
+    }
+
+    &__place {
+      margin-top: 10px;
+      flex-direction: row-reverse;
+    }
+
+    &__text {
+      display: flex;
+      flex-direction: row;
+      margin: 0 10px;
+      p {
+        margin: 0 2px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 576px) {
+  .motivation {
+    &__image {
+      left: 50%;
+    }
+  }
+}

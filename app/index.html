@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Title</title>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header class="header">
+      <div class="container">
+        <div class="wrapper wrapper--header">
+          <div class="header__info">
+            <img class="logo logo--red" src="img/logo.svg" alt="logo-red" />
+            <h2 class="header__title">
+              Личный лайф-коуч <span>в твоем смартфоне</span>
+            </h2>
+            <p class="header__desc">
+              Поможет собрать твою цель из маленьких ежедневных кирпичиков, не
+              позволит сойти с дистанции, поддержит высокую мотивацию в создании
+              новых привычек, покажет что ты уже можешь стать новой версией
+              себя.
+            </p>
+          </div>
+          <div class="header__image">
+            <img src="img/header-phone.png" alt="header-phone" />
+          </div>
+          <a href="#popup" id="download" class="btn">Скачать</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Popup -->
+
+    <div id="popup" class="popup mfp-hide">
+      <div class="subscribe">
+        <h2 class="popup__title">Ваша жизнь <span>изменится через</span></h2>
+        <p class="popup__timer" id="timer"></p>
+        <p class="popup__desc">
+          Мы делаем для вас лучшее приложение! Оставьте свой емейл и мы
+          оповестим вас как только приложение будет запущено, а также
+          <span
+            >подарим вам бесплатную неограниченную поддержку реального
+            ментора</span
+          >
+        </p>
+        <div class="popup__subscribe">
+          <input
+            type="email"
+            class="popup__email"
+            id="email"
+            name="subscribe"
+            placeholder="Ваш E-mail"
+          />
+          <button id="subscribe" class="popup__button">Стать первым!</button>
+        </div>
+      </div>
+      <div class="congratulation">
+        <h2 class="congratulation__title">Спасибо!</h2>
+        <p class="popup__desc">
+          Как только приложение будет доступно на App Store и Google Play,
+          <span>мы отправим вам письмо на E-mail!</span>
+        </p>
+        <button id="congrats" class="congratulation__button">Хорошо</button>
+      </div>
+    </div>
+
+    <!-- About -->
+
+    <section class="about">
+      <div class="container">
+        <div class="wrapper wrapper--about">
+          <div class="about__logo">
+            <img class="logo logo--white" src="img/logo.svg" alt="logo-white" />
+          </div>
+          <div class="about__desc">
+            <p>
+              You2 - это мобильное приложение, дающее эффект работы с
+              персональным лайф-коучем. Отвечай на простые вопросы и ты поймешь
+              чего действительно хочешь от жизни, что тебе делать, куда
+              двигаться и с какой скоростью. Путь к успеху построен из
+              развивающих задач и полезных привычек. Разбери свою цель на
+              простые шаги, и ежедневно делай минимум из того, что ты можешь уже
+              здесь и сейчас. <br />А You2 с помощью увлекательной геймификации
+              и системы штрафов за пропуски, проследит, чтобы ты не сдавался и
+              не сбивался с курса.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+
+    <section class="benefits">
+      <div class="container">
+        <h2 class="benefits__title">Чего ты добьешься с помощью приложения</h2>
+        <div class="benefits__block">
+          <div class="benefits__item">
+            <img src="img/expand.svg" alt="expand" />
+            <p>
+              Сделаешь глубокий разбор своей личности и отделишь реальные
+              желания от навязанных
+            </p>
+          </div>
+          <div class="benefits__item">
+            <img src="img/step.svg" alt="step" />
+            <p>
+              Превратишь свои желания в цели, раздробленные на небольшие
+              ежедневные шаги
+            </p>
+          </div>
+          <div class="benefits__item">
+            <img src="img/puzzle.svg" alt="puzzle" />
+            <p>
+              Начнешь строить новую версию своей личности, выполняя ежедневные
+              задания
+            </p>
+          </div>
+          <div class="benefits__item">
+            <img src="img/raise.svg" alt="raise" />
+            <p>
+              Осознаешь что у тебя есть достаточно возможностей для создания
+              жизни высокого уровня
+            </p>
+          </div>
+          <div class="benefits__item">
+            <img src="img/steering-wheel.svg" alt="steering-wheel" />
+            <p>
+              Возьмешь под контроль течение своей жизни, вопреки лени и страху
+            </p>
+          </div>
+          <div class="benefits__item">
+            <img src="img/dependable.svg" alt="dependable" />
+            <p>Улучшишь качество своей жизни по всем параметрам</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Motivation -->
+
+    <section class="motivation">
+      <div class="container">
+        <h2 class="motivation__title">
+          Как You2 поможет тебе сохранить мотивацию на пути к цели
+        </h2>
+        <p class="motivation__desc">
+          Приложение построено на эффективной системе инструментов, но реальные
+          подвиги совершать будешь ты сам
+        </p>
+        <div class="motivation__block">
+          <div class="motivation__image">
+            <img src="img/motivation-image.png" alt="motivation-image" />
+          </div>
+          <div class="motivation__block__items">
+            <div class="motivation__item">
+              <div class="motivation__item__title">
+                <img src="img/cap.svg" alt="cap" />
+                <p>Личный лайф-коуч</p>
+              </div>
+              <p class="motivation__item__desc">
+                Отвечая на вопросы профессионального лайф-коуча ты осознаешь
+                свои возможности. Сможешь подобрать лучшие инструменты для
+                достижения твоих целей. Составляй список ежедневных заданий и
+                новых привычек, которые помогут тебе построить новую жизнь.
+              </p>
+            </div>
+            <div class="motivation__item">
+              <div class="motivation__item__title">
+                <img src="img/island.svg" alt="island" />
+                <p>Отпуск и больничный</p>
+              </div>
+              <p class="motivation__item__desc">
+                Ты можешь взять “отпуск” или “больничный” до двух недель.
+                Выполнение задач ставится на паузу, без начисления штрафов.
+                Сохраняя прежние показатели в графике.
+              </p>
+            </div>
+            <div class="motivation__item">
+              <div class="motivation__item__title">
+                <img src="img/map.svg" alt="map" />
+                <p>Остров личности</p>
+              </div>
+              <p class="motivation__item__desc">
+                Игровое отображение прогресса через “Остров личности” вовлекает
+                и мотивирует. Получай награды за выполнение заданий и с каждой
+                наградой остров будет расти и развиваться. Если ты упорный -
+                через год твой остров превратится в настоящую цивилизацию.
+              </p>
+            </div>
+            <div class="motivation__item">
+              <div class="motivation__item__title">
+                <img src="img/punish.svg" alt="punish" />
+                <p>Система штрафов</p>
+              </div>
+              <p class="motivation__item__desc">
+                Назначай сумму денежных штрафов за невыполненные задачи. Не
+                откладывай свои задачи “на потом”, а завершай их несмотря ни на
+                что - не идеально выполненное задание лучше, чем штраф. Лишаясь
+                зацикленности на деталях и идеальности, ты идешь к цели,
+                постепенно растворяя страх неудачи.
+              </p>
+            </div>
+            <div class="motivation__item">
+              <div class="motivation__item__title">
+                <img src="img/bar-chart.svg" alt="bar-chart" />
+                <p>График твоего роста</p>
+              </div>
+              <p class="motivation__item__desc">
+                Вдохновляйся историей успешного формирования новых привычек,
+                отображенной с помощью инфографики. Анализируй свой прогресс в
+                выполнении ежедневных заданий. Убедись в том, что небольших
+                ежедневных шагов достаточно для создания новой личности.
+              </p>
+            </div>
+            <div class="motivation__item">
+              <div class="motivation__item__title">
+                <img src="img/notification.svg" alt="notification" />
+                <p>Напоминания для задач</p>
+              </div>
+              <p class="motivation__item__desc">
+                Больше не держишь в памяти все дневные задачи (направленные на
+                саморазвитие), благодаря напоминаниям. Получаешь организованное
+                мышление и снижение стресса.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Punish -->
+
+    <section class="punish">
+      <div class="container">
+        <h2 class="punish__title">Почему система штрафов эффективна?</h2>
+        <div class="wrapper wrapper--punish">
+          <div class="punish__info">
+            <p class="punish__desc">
+              В реальном мире мы теряем деньги каждый раз, когда пасуем перед
+              внедрением полезных привычек. Пропустил пробежку - потерял деньги
+              на счёт, который придётся оплатить у кардиолога, через 10-15 лет.
+              Пропустил занятия английского языка - потерял еще больше денег на
+              своей будущей зарплате, не получив повышение по должности.
+            </p>
+            <p class="punish__desc">
+              Это приложение создано чтобы ты помнил, что влечёт за собой
+              пропуск любого шага, направленного на улучшение любых параметров
+              жизни. Чтобы ты прочувствовал последствия ещё до того, как они
+              станут реально плачевными, зарядился мотивацией, и встал на путь,
+              ведущий к успеху.
+            </p>
+          </div>
+          <div class="punish__phones">
+            <img class="phone phone--odd" src="img/phone1.png" alt="phone1" />
+            <img class="phone phone--even" src="img/phone2.png" alt="phone2" />
+            <img
+              class="phone phone--odd phone--first"
+              src="img/phone3.png"
+              alt="phone3"
+            />
+            <img
+              class="phone phone--even phone--second"
+              src="img/phone4.png"
+              alt="phone4"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review -->
+
+    <section class="review">
+      <div class="container">
+        <h2 class="review__title">
+          Никаких пустых обещаний -
+          <span>только факты, доказанные пользователями</span>
+        </h2>
+        <div class="slider">
+          <div class="slider__item">
+            <div class="slider__title">
+              <div class="review__image">
+                <img src="img/review.png" alt="review" />
+              </div>
+              <div class="review__info">
+                <p class="review__info__name">Дмитрий Поршенко</p>
+                <p class="review__info__position">Региональный Менеджер</p>
+                <div class="review__info__socials">
+                  <a href="#"><img src="img/facebook.svg" alt="facebook" /></a>
+                  <a href="#"
+                    ><img src="img/instagram.svg" alt="instagram"
+                  /></a>
+                  <a href="#"><img src="img/twitter.svg" alt="twitter" /></a>
+                  <a href="#"><img src="img/vk.svg" alt="vk" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="slider__qoute">
+              <p>
+                “Моя жизнь так нагружена, и я не хотела испытывать еще большее
+                давление, боясь потерять деньги, из-за невыполненного задания.
+                Но если не оплатишь 5 штрафов - приложение само удалится, так
+                что я решила, что ничем не рискую. И не зря! Это приложение как
+                пари с другом. Выполняю все задания с азартом, не заморачиваясь
+                о деталях вот я подтянула английский и выучила 2 программы.
+                Наконец-то я получила желаемую работу, до которой еще три месяца
+                назад не дотягивала!”
+              </p>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__title">
+              <div class="review__image">
+                <img src="img/review.png" alt="review" />
+              </div>
+              <div class="review__info">
+                <p class="review__info__name">Дмитрий Игнатов</p>
+                <p class="review__info__position">Региональный Менеджер</p>
+                <div class="review__info__socials">
+                  <a href="#"><img src="img/facebook.svg" alt="facebook" /></a>
+                  <a href="#"
+                    ><img src="img/instagram.svg" alt="instagram"
+                  /></a>
+                  <a href="#"><img src="img/twitter.svg" alt="twitter" /></a>
+                  <a href="#"><img src="img/vk.svg" alt="vk" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="slider__qoute">
+              <p>
+                “Моя жизнь так нагружена, и я не хотела испытывать еще большее
+                давление, боясь потерять деньги, из-за невыполненного задания.
+                Но если не оплатишь 5 штрафов - приложение само удалится, так
+                что я решила, что ничем не рискую. И не зря! Это приложение как
+                пари с другом. Выполняю все задания с азартом, не заморачиваясь
+                о деталях вот я подтянула английский и выучила 2 программы.
+                Наконец-то я получила желаемую работу, до которой еще три месяца
+                назад не дотягивала!”
+              </p>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__title">
+              <div class="review__image">
+                <img src="img/review.png" alt="review" />
+              </div>
+              <div class="review__info">
+                <p class="review__info__name">Антон Поршенко</p>
+                <p class="review__info__position">Менеджер</p>
+                <div class="review__info__socials">
+                  <a href="#"><img src="img/facebook.svg" alt="facebook" /></a>
+                  <a href="#"
+                    ><img src="img/instagram.svg" alt="instagram"
+                  /></a>
+                  <a href="#"><img src="img/twitter.svg" alt="twitter" /></a>
+                  <a href="#"><img src="img/vk.svg" alt="vk" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="slider__qoute">
+              <p>
+                “Моя жизнь так нагружена, и я не хотела испытывать еще большее
+                давление, боясь потерять деньги, из-за невыполненного задания.
+                Но если не оплатишь 5 штрафов - приложение само удалится, так
+                что я решила, что ничем не рискую.”
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Exception -->
+
+    <section class="exception">
+      <div class="container">
+        <div class="wrapper">
+          <div class="exception__info">
+            <h2 class="exception__title">Тебе НЕ пойдет, если ты</h2>
+            <ul class="exception__list">
+              <li>
+                Не готов ежедневно совершать маленькие действия для повышения
+                качества своей жизни
+              </li>
+              <li>
+                Привык откладывать свою жизнь на “потом” и не хочешь этого
+                менять
+              </li>
+              <li>
+                Не нуждаешься в дополнительной мотивации при выполнении
+                ежедневных рутинных задач
+              </li>
+              <li>
+                С легкостью формируешь новые привычки и внедряешь их в жизнь
+              </li>
+              <li>
+                Полностью доволен своими личностными качествами и не желаешь их
+                улучшить
+              </li>
+              <li>
+                Не хочешь покидать зону комфорта ради воплощения своей мечты
+              </li>
+            </ul>
+          </div>
+          <div class="exception__image">
+            <img src="img/sofa.svg" alt="sofa" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download -->
+
+    <section class="download">
+      <div class="container">
+        <div class="wrapper wrapper--download">
+          <div class="download__image">
+            <img src="img/footer-phone.png" alt="download-phone" />
+          </div>
+          <div class="download__info">
+            <p class="download__text">
+              Начни сейчас делать то что можешь, чтобы вскоре жить так, как
+              хочешь.
+            </p>
+            <div class="download__buttons">
+              <div class="download__button">
+                <p>Скачать для</p>
+                <div class="download__icon">
+                  <img src="img/apple.svg" alt="apple" />
+                </div>
+              </div>
+              <div class="download__button">
+                <p>Скачать для</p>
+                <div class="download__icon">
+                  <img src="img/androind.svg" alt="androind" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__contacts">
+          <div class="footer__socials">
+            <p>Мы в соц.сетях</p>
+            <div class="footer__icons">
+              <a href="#"><img src="img/facebook.svg" alt="facebook" /></a>
+              <a href="#"><img src="img/instagram.svg" alt="instagram" /></a>
+              <a href="#"><img src="img/twitter.svg" alt="twitter" /></a>
+              <a href="#"><img src="img/vk.svg" alt="vk" /></a>
+            </div>
+          </div>
+          <div class="footer__place">
+            <div class="footer__text">
+              <p>Украина г.Киев</p>
+              <p>вул. Николая Мазура, 4</p>
+            </div>
+            <img src="img/placeholder.svg" alt="placeholder" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/scripts.min.js"></script>
+  </body>
+</html>
