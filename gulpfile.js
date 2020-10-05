@@ -82,6 +82,8 @@ gulp.task("build", async function () {
   let buildJs = gulp.src("app/js/**/*.min.js").pipe(gulp.dest("dist/js"));
 
   let buildImg = gulp.src("app/img/**/*.*").pipe(gulp.dest("dist/img"));
+
+  let buildFonts = gulp.src("app/fonts/**/*.*").pipe(gulp.dest("dist/fonts"));
 });
 
 gulp.task("watch", function () {
