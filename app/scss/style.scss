@@ -645,8 +645,13 @@ img {
   &__icon {
     padding: 10px 20px;
     margin: -3px;
-    border: 4px solid $white;
+    border: 6px solid $white;
     border-radius: 10px;
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
   }
 }
 

@@ -89,19 +89,15 @@
       display: none;
     }
     &__image {
-      display: flex;
-      justify-content: center;
-      width: 75%;
       margin: 0 auto;
     }
   }
   .btn {
-    top: 84%;
+    top: 83%;
     width: 100%;
   }
 
   .about {
-    margin-top: 0;
     padding: 60px 0;
   }
 
@@ -236,6 +232,7 @@
 
   .phone {
     width: 50%;
+    height: 50%;
   }
 
   .review {
@@ -254,7 +251,7 @@
   }
 
   .slider {
-    width: 335px;
+    width: 325px;
   }
 
   .exception {
